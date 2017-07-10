@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Accesion numbers grouping and ordering</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<h1>Result</h1>
+<p th:text="'Sorted and grouped: ' + ${accn.toString()}" />
+<p th:text="'Invalid inputs: ' + ${accn.getInvalidAccns()}" />
+
+<a href="/accession">Group and sort another set of input</a>
+</body>
+</html>

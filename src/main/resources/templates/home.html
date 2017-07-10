@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Accesion numbers grouping and ordering</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<h1>Accesion numbers grouping and ordering</h1>
+<form action="#" th:action="@{/accession}" th:object="${accessionNumbers}" method="post">
+
+    <p>Enter Accession numbers(comma separated):<br></br> <textarea name = "news_content" rows = "20" cols = "80" th:field = "*{content}" ></textarea></p>
+
+    <p><input type="submit" value="Sort and Group" /> <input type="reset" value="Reset" /></p>
+
+</form>
+</body>
+</html>
