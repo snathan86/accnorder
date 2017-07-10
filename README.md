@@ -5,7 +5,7 @@
  JDK version : 1.8.0_131
  OS tested  : Ubuntu 16.04
 
-  git clone 
+  git clone https://github.com/snathan86/accnorder.git
   
   cd accnorder 
   ```
