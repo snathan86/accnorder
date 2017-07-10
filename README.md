@@ -29,7 +29,7 @@ java -jar target/accn-order-1.0-SNAPSHOT.jar
 ```
 After server started ,
 
-access the apllication using 
+access the application using 
 
 http://localhost:8080/accession
 
